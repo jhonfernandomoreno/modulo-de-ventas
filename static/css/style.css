@@ -1,0 +1,19 @@
+.fondo {
+    height: 1024px;
+    width: 1366px;
+    position: absolute;
+    background-image: url("/static/img/fondo_ferreteria.jpg");
+}
+
+.f_1 {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    background-color: #c7cbd4;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+}
