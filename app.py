@@ -9,5 +9,9 @@ def sesion():
 def dash():
     return render_template('dashboard.html')
 
+@app.route('/ventas')
+def ventas():
+    return 'Hola a todos'
+
 if __name__ == "__main__":
     app.run(debug=True)
