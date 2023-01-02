@@ -1,0 +1,30 @@
+{% extends 'layout.html' %}
+
+<body>
+    <header>
+        {% include 'navbar.html' %}
+    </header>
+    {% block body %}
+    <video src="{{url_for('static',filename='img/Renderizado - 26011.mp4')}}" autoplay="true" loop="true" muted="true"></video>
+    <div style="width: 500px;
+    height: 300px;
+    border-radius: 0%;
+    top: 200px;
+    left: 300px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    text-align: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    ">
+
+        <p>UNIVERSIDAD DE NARINO</p>
+        <P>IPIALES</P>
+        <P><b>Integrantes: Jhon Moreno - Cristian Ordoñez</b></P>
+        <p>2022 - 2023</p>
+    </div>
+    {% endblock body %}
+</body>
